@@ -10,7 +10,7 @@ for (int i = 0; i < array.Length; i++)
 {
     array[i] = new Random().Next(-99, 100);
     Console.Write(array[i] + " ");
-    if (i % 2 == 0) sum += array[i];
+    if (i % 2 == 1) sum += array[i];
 }
 
 Console.WriteLine($"\nСумма элементов, стоящих на нечётных позициях = {sum}");
