@@ -46,6 +46,6 @@ Console.WriteLine("\nНачальный массив:");
 PrintArray(incomeArray);
 
 Console.Write("Укажите максимальную длину символов для элемента в новом массиве: ");
-int maxСharLength = Convert.ToInt32(Console.ReadLine());
+int maxCharLength = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("\nОбработанный массив:");
-PrintArray(ArrayCharCut(incomeArray, maxСharLength));
+PrintArray(ArrayCharCut(incomeArray, maxCharLength));
