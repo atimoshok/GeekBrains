@@ -2,18 +2,19 @@
 # ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
 def logical_statement(X, Y, Z):
-    left_part = not(X or Y or Z)
-    right_part = not(X) and not(Y) and not(Z)
-    print(f'{left_part == right_part}, при X = {X}, Y = {Y}, Z = {Z}')
+    left_part = not (X or Y or Z)
+    right_part = not (X) and not (Y) and not (Z)
+    return left_part == right_part
 
-print('Утвержденине ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z')
-logical_statement(0,0,0)
-logical_statement(0,0,1)
-logical_statement(0,1,0)
-logical_statement(0,1,1)
-logical_statement(1,0,0)
-logical_statement(1,0,1)
-logical_statement(1,1,0)
-logical_statement(1,1,1)
+flag = True
+print('Утвержденине ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z\nX Y Z')
+for x in range(2):
+    for y in range(2):
+        for z in range(2):
+            result = logical_statement(x, y, z)
+            print(x, y, z, result)
+            if result != True:
+                flag = False
 
-print('По закону де Моргана: Отрицание дизъюнкции есть конъюнкция отрицаний :)')
+print(f'Утвержджение для всех значений {flag}')
+print('P.S. По закону де Моргана: Отрицание дизъюнкции есть конъюнкция отрицаний :)')
