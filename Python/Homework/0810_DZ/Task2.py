@@ -7,7 +7,6 @@ def logical_statement(X, Y, Z):
     print(f'{left_part == right_part}, при X = {X}, Y = {Y}, Z = {Z}')
 
 print('Утвержденине ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z')
-
 logical_statement(0,0,0)
 logical_statement(0,0,1)
 logical_statement(0,1,0)
