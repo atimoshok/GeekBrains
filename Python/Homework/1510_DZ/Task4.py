@@ -7,7 +7,6 @@
 
 def convert_decimal(decimal_num, basis=2):
     result_list = []
-    #div_reminder = decimal_num
     while decimal_num != 0:
         #print(decimal_num % basis)
         result_list.append(decimal_num % basis)
