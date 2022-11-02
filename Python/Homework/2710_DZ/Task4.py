@@ -36,7 +36,7 @@ def print_polinomial(lst, file_name=r'Python\Homework\2710_DZ\k_degree_polinomia
 k = int(input('Введите степень многочлена: '))
 dict = {}
 for i in range(k + 1):
-    dict[i] = random.randint(0, 10)
+    dict[i] = random.randint(0, 100)
 polinomial = ['= 0']
 for i in dict:
     if (make_elem(dict[i], i) != None):
