@@ -34,13 +34,13 @@ def print_polinomial(lst, file_name=r'Python\Homework\2710_DZ\k_degree_polinomia
 
 
 k = int(input('Введите степень многочлена: '))
-dict = {}
+dictionary = {}
 for i in range(k + 1):
-    dict[i] = random.randint(0, 100)
+    dictionary[i] = random.randint(0, 100)
 polinomial = ['= 0']
-for i in dict:
-    if (make_elem(dict[i], i) != None):
-        polinomial.append(make_elem(dict[i], i))
+for i in dictionary:
+    if (make_elem(dictionary[i], i) != None):
+        polinomial.append(make_elem(dictionary[i], i))
 polinomial.reverse()
-print(dict)
+print(dictionary)
 print_polinomial(polinomial)
