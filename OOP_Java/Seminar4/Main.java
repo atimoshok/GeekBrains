@@ -6,10 +6,10 @@
 // Обеспечить, чтобы определенный тип воина мог нести только определенной оружие
 // Создать класс командира
 
-package Java.Seminar4;
+package OOP_Java.Seminar4;
 
-import Java.Seminar4.Weapons.Bow;
-import Java.Seminar4.Weapons.Sword;
+import OOP_Java.Seminar4.Weapons.Bow;
+import OOP_Java.Seminar4.Weapons.Sword;
 
 public class Main {
     public static void main(String[] args) {

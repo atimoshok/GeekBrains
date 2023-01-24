@@ -1,4 +1,4 @@
-package Java.Seminar4.Weapons;
+package OOP_Java.Seminar4.Weapons;
 import java.util.Random;
 
 public class Sword extends Weapon {

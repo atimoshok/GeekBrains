@@ -1,7 +1,5 @@
 
-package Java.Task1;п
-ъ23щж
-оъ9+ 
+package Java.Task1;
 import java.io.*;
  
 public class Task1 {

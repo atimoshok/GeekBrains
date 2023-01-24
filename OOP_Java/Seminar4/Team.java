@@ -1,4 +1,4 @@
-package Java.Seminar4;
+package OOP_Java.Seminar4;
 
 import java.util.*;
 

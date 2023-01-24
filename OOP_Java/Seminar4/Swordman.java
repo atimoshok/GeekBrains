@@ -1,6 +1,6 @@
-package Java.Seminar4;
+package OOP_Java.Seminar4;
 
-import Java.Seminar4.Weapons.Sword;
+import OOP_Java.Seminar4.Weapons.Sword;
 
 public class Swordman extends Warrior {
 

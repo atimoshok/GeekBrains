@@ -1,5 +1,5 @@
 // Реализовать абстрактный класс Warrior, с полями name, weapon, healthPoint
-package Java.Seminar4;
+package OOP_Java.Seminar4;
 
 public abstract class Warrior {
     private String name;
