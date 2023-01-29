@@ -1,4 +1,4 @@
-package Seminar_2;
+package OOP_Java.Seminar_2;
 
 public class Duck extends Animal implements Runable, Flyable, Swimable{
 

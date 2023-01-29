@@ -3,7 +3,7 @@
 // а наследники собственные параметры (тип перемещения).
 
 
-package Seminar_2;
+package OOP_Java.Seminar_2;
 
 public abstract class Animal implements Speakable {
     private String name;

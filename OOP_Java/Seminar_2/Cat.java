@@ -1,4 +1,4 @@
-package Seminar_2;
+package OOP_Java.Seminar_2;
 
 public class Cat extends Animal implements Runable{
 

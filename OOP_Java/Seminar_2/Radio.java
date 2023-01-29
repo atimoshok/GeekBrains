@@ -1,7 +1,7 @@
 // Теперь создать объект радио, и подумать, как его включить в объект Zoo.
 
 
-package Seminar_2;
+package OOP_Java.Seminar_2;
 
 public class Radio implements Speakable {
 

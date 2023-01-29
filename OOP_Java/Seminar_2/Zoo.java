@@ -1,4 +1,4 @@
-package Seminar_2;
+package OOP_Java.Seminar_2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,7 +66,7 @@ public class Zoo {
         }
         return result;
     }
-    
+
     public ArrayList<Animal> getAnimals() {
         return animals;
     }
