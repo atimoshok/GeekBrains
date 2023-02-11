@@ -13,5 +13,12 @@ public class Main {
         for (CarNumber carNumber : parking) {
             System.out.println(carNumber);
         }
+
+        System.out.println("---------------");
+        parking.addFirstCar(new CarNumber("222"));
+        for (CarNumber carNumber : parking) {
+            System.out.println(carNumber);
+        }
+
     }
 }
