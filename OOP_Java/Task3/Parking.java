@@ -21,32 +21,33 @@ public class Parking implements Iterable<CarNumber> {
 
     public void addLastCar (CarNumber number) {
         // size++;
-        // if (tail == null) {
-        //     head = number;
-        //     tail = head;
-        //     number.setNext(null);
-        //     number.setPrevious(null);
-        // }
-        // else {
-        //     number.setNext(null);
-        //     number.setPrevious(tail);
-        //     tail = number;
-        // }
+        if (tail == null) {
+            head = number;
+            tail = head;
+            number.setNext(null);
+            number.setPrevious(null);
+        }
+        else {
+            number.setNext(null);
+            number.setPrevious(tail);
+            tail = number;
+        }
         cars.add(number);
     }
 
     public void addFirstCar (CarNumber number) {
-        // if (head == null) {
-        //     head = number;
-        //     tail = head;
-        //     number.setNext(null);
-        //     number.setPrevious(null);
-        // }
-        // else {
-        //     number.setNext(head);
-        //     number.setPrevious(null);
-        //     head = number;
-        // }
+        // size++;
+        if (head == null) {
+            head = number;
+            tail = head;
+            number.setNext(null);
+            number.setPrevious(null);
+        }
+        else {
+            number.setNext(head);
+            number.setPrevious(null);
+            head = number;
+        }
         cars.add(0, number);
     }
 
