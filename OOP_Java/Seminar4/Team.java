@@ -24,4 +24,15 @@ public class Team <E extends Warrior> implements Iterable<E>{
         }
         return maxRange;
     }
+
+    public int minTeamShield() {
+        int minBlock = -1;
+        for (E item : team) {
+            if(item instanceof Swordman) {
+                if(minBlock > -1 && ((Swordman)item).armorAmount() < minBlock) minBlock = ((Swordman)item).armorAmount();
+                else minBlock = ((Swordman)item).armorAmount();
+            }
+        }
+        return minBlock;
+    }
 }

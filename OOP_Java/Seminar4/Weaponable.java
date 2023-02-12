@@ -2,6 +2,5 @@
 package OOP_Java.Seminar4;
 
 public interface Weaponable {
-
     public int damage();
 }

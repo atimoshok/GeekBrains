@@ -1,11 +1,13 @@
 // Реализовать абстрактный класс Warrior, с полями name, weapon, healthPoint
 package OOP_Java.Seminar4;
 
+import OOP_Java.Seminar4.Shields.Shieldable;
+
 public abstract class Warrior {
     private String name;
     private int healthPoint;
     private Weaponable weapon;
-    
+
     public Warrior(String name, int healthPoint, Weaponable weapon) {
         this.name = name;
         this.healthPoint = healthPoint;
